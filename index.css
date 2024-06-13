@@ -16,3 +16,20 @@ canvas {
     height:100%;
     z-index:-1;
 }
+
+.container {
+    display: flex;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black 1px dotted;
+    width: 100%;
+}
+
+.item > .menu {
+    display: flex;
+    flex-grow: 1;
+}
