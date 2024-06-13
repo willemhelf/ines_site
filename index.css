@@ -29,7 +29,6 @@ canvas {
     width: 100%;
 }
 
-.item > .menu {
+.menu > div {
     display: flex;
-    flex-grow: 1;
 }
