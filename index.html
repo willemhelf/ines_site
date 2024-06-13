@@ -5,13 +5,14 @@
     <link rel="stylesheet" href="index.css">
     <title>Drawing Game</title> 
     <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
     <script type="text/javascript" src="sketch.js"></script>
         <div class="container">
             <div class="menu">
-                <div class="item">1</div>
+                <div class="item btn" onClick="colorChange()">1</div>
                 <div class="item">2</div>
                 <div class="item">3</div>
                 <div class="item">4</div>
@@ -26,7 +27,9 @@
                 <div class="item">13</div>
                 <div class="item">14</div>
             </div>
-            <div class="p5-canvas">
+            <div class="canvas-parent">
+                <div class="p5-canvas">
+                </div>
             </div>
         </div>
 </body>

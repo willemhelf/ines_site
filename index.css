@@ -31,4 +31,9 @@ canvas {
 
 .menu > div {
     display: flex;
+    padding: 11px;
+}
+
+.btn {
+    background-color: yellow;
 }
