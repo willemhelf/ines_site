@@ -6,6 +6,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 0;
+    background-size: 40%;
 }
 
 canvas {
@@ -27,6 +28,9 @@ canvas {
     justify-content: space-between;
     border-bottom: black 1px dotted;
     width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .menu > div {
@@ -34,6 +38,9 @@ canvas {
     padding: 11px;
 }
 
-.btn {
-    background-color: yellow;
+.item {
+    border-radius: 50%;
+    background-color: blue;
+    height: 20px;
+    width: 20px;
 }
