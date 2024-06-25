@@ -1,3 +1,10 @@
 function displayDropdown() {
-    document.getElementById('menu:not(#menu-dot)').style.display = "block"
+    
+    Array.from(document.getElementsByClassName('hide')).forEach((element) => {
+        element.style.display = 'flex'
+        element.style['align-items'] = "center"
+        element.style["z-index"] = 2 
+      })
+
+    console.log(Array.from(document.getElementsByClassName('hide')))
 }

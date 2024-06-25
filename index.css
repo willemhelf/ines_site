@@ -50,15 +50,22 @@ canvas {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
+    .container {
         overflow: hidden;
+        position: relative;
     }
     #menu {
         overflow: hidden;
         border-bottom: none;
+        display: flex;
+        flex-direction: column;
+        width: 44px;
+        border-bottom: black 1px dotted;
+        border-right: black 1px dotted;
     }
     #menu > .hide {
         display: none;
+        margin-left: 10px;
     }
     #menu-dot {
         display: flex;
