@@ -6,6 +6,12 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
     button = createButton("clear");
     button.mouseClicked(clearOut)
+    button.size(100, 40)
+    button.style("font-family", "Times New Roman");
+    button.style("font-size", "26px");
+    button.style("margin", "15px")
+    button.style("background-color", "white")
+    button.style("position", "absolute")
  }
 
 function draw() {

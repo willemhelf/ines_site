@@ -1,3 +1,10 @@
+/* fonts */
+
+@font-face {
+    font-family: Junicode-Italic;
+    src: url(fonts/Junicode-Italic.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -22,12 +29,27 @@ canvas {
     display: flex;
 }
 
+#both-menus {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#top-menu {
+    background-color: white;
+    z-index: 2;
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    font-family: Junicode-Italic;
+}
+
 #menu {
     background-color: white;
     display: flex;
     justify-content: space-between;
     border-bottom: black 1px dotted;
-    width: 100%;
+    border-top: black 1px dotted;
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -119,9 +141,15 @@ canvas {
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        overflow: hidden;
+    }
     .container {
         overflow: hidden;
         position: relative;
+    }
+    #top-menu {
+        border-bottom: 1px black dotted;
     }
     #menu {
         overflow: hidden;
@@ -129,6 +157,7 @@ canvas {
         display: flex;
         flex-direction: column;
         width: 44px;
+        border-top: none;
         border-bottom: black 1px dotted;
         border-right: black 1px dotted;
     }
