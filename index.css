@@ -39,10 +39,79 @@ canvas {
 
 .item {
     border-radius: 50%;
-    background-color: blue;
     height: 20px;
     width: 20px;
+    background-color: blue;
 }
+
+/* individual button colors */
+
+#apak-note {
+    background-color: #ffe608;
+}
+
+#gama-note {
+    background-color: #39c3db;
+}
+
+#ice-notes {
+    background: rgb(240,199,238);
+    background: linear-gradient(90deg, rgba(240,199,238,1) 38%, rgba(255,255,255,1) 84%); 
+}
+
+#joes-notes {
+    background: rgb(138,221,237);
+    background: linear-gradient(90deg, rgba(138,221,237,1) 17%, rgba(252,252,98,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+#milk_note {
+    background-color: #edcc80;
+}
+
+#mofu-note {
+    background-color: #e86b5f;
+}
+
+#nekojiru2 {
+    background-color: red;
+}
+
+#nekojiru4 {
+    background: rgb(255,190,0);
+    background: linear-gradient(90deg, rgba(255,190,0,1) 2%, rgba(255,255,255,1) 57%, rgba(255,254,250,1) 100%, rgba(255,190,0,1) 100%);
+}
+
+#nekojiru8 {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 2%, rgba(255,254,250,1) 56%);
+}
+
+#nekojiru13 {
+    background: rgb(255,206,109);
+    background: linear-gradient(90deg, rgba(255,206,109,1) 26%, rgba(109,241,255,1) 81%); 
+}
+
+#nekojiru24 {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 55%); 
+}
+
+#nekojiru27 {
+    background: rgb(68,74,129);
+    background: linear-gradient(90deg, rgba(68,74,129,1) 28%, rgba(209,160,209,1) 59%); 
+}
+
+#nemurineko_NOTE {
+    background: rgb(253,253,255);
+    background: linear-gradient(90deg, rgba(253,253,255,1) 18%, rgba(171,204,232,1) 48%, rgba(248,208,250,1) 84%); 
+}
+
+#nyan-note {
+    background: rgb(253,253,255);
+    background: linear-gradient(90deg, rgba(253,253,255,1) 18%, rgba(232,222,171,1) 73%); 
+}
+
+/* end individual button color */
 
 #menu-dot {
     background-color: red;
