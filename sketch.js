@@ -4,6 +4,8 @@ let drawCircle;
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
+    button = createButton("clear");
+    button.mouseClicked(clearOut)
  }
 
 function draw() {
@@ -18,5 +20,8 @@ function mouseIsPressed() {
   console.log("click");
 }
 
-////
+/// clear out drawing on button click
 
+function clearOut(){
+  clear()
+}
