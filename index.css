@@ -74,7 +74,6 @@ canvas {
 }
 
 #menu-dot {
-    background-color: red;
     display: none;
 }
 
@@ -149,30 +148,42 @@ canvas {
 
 @media only screen and (max-width: 600px) {
     html, body {
-        overflow:hidden 
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
     } 
     .container {
         position: relative;
     }
     #top-menu {
         border-bottom: 1px black dotted;
+        position: fixed;
+        width: 100%;
     }
     #menu {
         overflow: hidden;
         border-bottom: none;
         display: flex;
         flex-direction: column;
-        width: 44px;
+        width: 56px;
         border-top: none;
         border-bottom: black 1px dotted;
         border-right: black 1px dotted;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        justify-content: center;
+        margin-top: 40px;
     }
     #menu > .hide {
         display: none;
-        margin-left: 10px;
+        margin-left: 14px;
     }
     #menu-dot {
+        justify-content: center;
         display: flex;
-        margin-left: 10px;
+    }
+    .item {
+        height: 26px;
+        width: 26px;
     }
 }

@@ -11,7 +11,7 @@ function setup() {
     button.style("font-size", "26px");
     button.style("margin", "15px")
     button.style("background-color", "white")
-    button.style("float", "right")
+    button.style("right", "0")
     button.style("bottom", "0")
     button.style("position", "fixed")
  }
