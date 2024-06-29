@@ -7,11 +7,13 @@ function setup() {
     button = createButton("clear");
     button.mouseClicked(clearOut)
     button.size(100, 40)
-    button.style("font-family", "Times New Roman");
+    button.style("font-family", "Junicode");
     button.style("font-size", "26px");
     button.style("margin", "15px")
     button.style("background-color", "white")
-    button.style("position", "absolute")
+    button.style("float", "right")
+    button.style("bottom", "0")
+    button.style("position", "fixed")
  }
 
 function draw() {
