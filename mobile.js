@@ -6,6 +6,4 @@ function displayDropdown() {
         element.style["z-index"] = 2 
         element.style["margin-top"] = "11px"
       })
-
-    console.log(Array.from(document.getElementsByClassName('hide')))
 }
