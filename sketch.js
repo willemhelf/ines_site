@@ -1,6 +1,8 @@
-// drawing tool 
+// drawing tool initializer
 
 let drawCircle;
+
+// button
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
