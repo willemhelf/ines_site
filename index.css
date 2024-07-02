@@ -150,16 +150,21 @@ canvas {
 @media only screen and (max-width: 600px) {
     html, body {
         overflow: hidden;
+        overflow-y: hidden;
         margin: 0;
         padding: 0;
     } 
     .container {
         position: relative;
     }
+    #both-menus {
+        overflow: hidden;
+    }
     #top-menu {
         border-bottom: 1px black dotted;
         position: fixed;
         width: 100%;
+        overflow: hidden;
     }
     #menu {
         overflow: hidden;
